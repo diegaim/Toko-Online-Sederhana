@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	</head>
+		<title>Selamat Datang</title>
+		<link href="css/materialize.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/materialize.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!--HEADER-->
+			<div class="row">
+				<div class="col s12 z-depth-4 teal lighten-2" style="color:white; ">
+					<h2>Unch Chocolate</h2>
+				</div>
+			</div>
+			
+			<!--NAVBAR-->
+			<div class="row">
+				<div class="col s12 m2">
+					<a href="index.html">Halaman Utama</a>
+				</div>
+				<div class="col s12 m2">
+					<a href="produk2.php">Lihat Produk</a>
+				</div>
+			</div>
+			
+			<!--ARTIKEL DAN SIDE BAR-->
+			<div class="row">
+				<!--ARTIKEL-->
+				<div class="col s12 m9" align="center">
+					<br/>
+					<br/>
+					<br/>
+					<img src='images/logo.jpg' width="300" />
+				</div>
+				<!--SIDEBAR-->
+				<div class="col s12 m3">
+					<h6>Login untuk memesan</h6>
+					<br/>
+					<form action="proses_login.php" method="post">
+						UserID :
+						<br/><input type="text" name="login_userid"/>
+						<br/>Password :
+						<br/><input type="password" name="login_pwd"/>
+						<br/><a class="waves-effect waves-light btn"><input type="submit" name="btn_login" value="Login"/></a>
+						<br/><br/>Belum punya akun?
+						<br/><a href="daftar.html">Klik disini untuk mendaftar</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
